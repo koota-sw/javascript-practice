@@ -1,9 +1,9 @@
 $(function ()
 {
     $('#chap1').css('color', '#ffffff');
-    $('#chap1').on('mouseover', function ()
+    $('.hello').on('click', function ()
     {
-        $('#chap1').css('color', '#ebc000');
+        $('.hello').css('color', '#ebc000');
     });
     $('#chap1 .hello').css({
         transform: 'rotate(10deg)',
