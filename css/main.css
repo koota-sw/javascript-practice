@@ -10,7 +10,7 @@ body{
     height: 10%;
 }
 
-.debug{
+.container{
     background-color: rgb(34, 105, 236);
     height: 75%;
     position: relative;
@@ -18,7 +18,7 @@ body{
 }
 
 .hello{
-    color: white;
+    /* color: white; */
     font-size: 100px;
     position: absolute;
     top: 50%;
