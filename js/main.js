@@ -2,7 +2,7 @@ $(function ()
 {
     $('.hello')
         .css({
-            top: '-100px',
+            top: '10%',
             color: 'white',
             transform: 'rotate(10deg)',
         })
@@ -19,13 +19,20 @@ $(function ()
         .on('click', function ()
         {
             $('.hello').animate({
-                top: '100px',
+                top: '80%',
                 color: '#ebc000',
-                opacity: 0,
-                fontSize: '0px'
+                opacity: 0.5
             },
                 1500,
-                'linear'
+                'linear',
+                function ()
+                {
+                    $('.hello').animate({
+                        top: '50%'
+                    },
+                        500
+                    );
+                }
             );
         });
 });
