@@ -9,6 +9,7 @@ body{
     background-color: white;
     color: black;
     font-size: small;
+    font-family: monospace;
     height: 10%;
 }
 
@@ -32,6 +33,26 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.containerc2 h1{
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn-line{
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-line button{
+    color: rgba(255, 166, 0, 0.966);
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
 }
 
 footer{
