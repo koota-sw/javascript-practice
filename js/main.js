@@ -1,4 +1,4 @@
-$(function ()
+$(function () //chap1のアニメーション
 {
     $('.hello')
         .css({
@@ -34,5 +34,27 @@ $(function ()
                     );
                 }
             );
+        });
+});
+
+
+$(function ()
+{
+    const anitime = 500;
+
+    $('.btn-line1 button')
+        .on('mouseover', function ()
+        {
+            $(this).stop(true).animate({
+                backgroundColor: '#ae5e9b',
+                color: '#fff'
+            }, anitime);
+        })
+        .on('mouseout', function ()
+        {
+            $(this).stop(true).animate({
+                backgroundColor: '#fff',
+                color: 'rgba(255, 166, 0, 0.966)'
+            }, anitime);
         });
 });
