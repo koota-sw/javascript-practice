@@ -12,11 +12,17 @@ body{
     height: 10%;
 }
 
-.container{
+.containerc1{
     background-color: rgb(34, 105, 236);
     height: 75%;
     position: relative;
     text-align: center;
+}
+
+.containerc2{
+    background-color: rgb(221, 169, 27);
+    height: 75%;
+    display: none;
 }
 
 .hello{
