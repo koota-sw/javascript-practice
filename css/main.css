@@ -55,6 +55,10 @@ body{
     border-radius: 10px;
 }
 
+.btn-line2 button{
+    border: solid 0px #ae5e9b;
+}
+
 footer{
     position: relative;
     text-align: right;

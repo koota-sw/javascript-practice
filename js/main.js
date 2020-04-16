@@ -38,7 +38,7 @@ $(function () //chap1のアニメーション
 });
 
 
-$(function ()
+$(function ()//chap2のアニメーション
 {
     const anitime = 500;
 
@@ -56,5 +56,21 @@ $(function ()
                 backgroundColor: '#fff',
                 color: 'rgba(255, 166, 0, 0.966)'
             }, anitime);
+        });
+    
+    $('.btn-line2 button')
+        .on('mouseover', function ()
+        {
+            $(this).stop(true).animate({
+                borderWidth: '12px',
+                color: '#ae5e9b'
+            }, anitime, 'easeOutSine');
+        })
+        .on('mouseout', function ()
+        {
+            $(this).stop(true).animate({
+                borderWidth: '0px',
+                color: 'rgba(255, 166, 0, 0.966)'
+            }, anitime, 'easeOutSine');
         });
 });
