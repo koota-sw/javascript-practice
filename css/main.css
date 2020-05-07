@@ -59,6 +59,30 @@ body{
     border: solid 0px #ae5e9b;
 }
 
+.btn-line3 button{
+    position: relative;
+}
+
+.btn-line3 button .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.btn-line3 button span span{
+    display: block;
+    width: 224px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    background-color: #ae5e9b;
+    border-radius: 20px;
+}
+
 footer{
     position: relative;
     text-align: right;
